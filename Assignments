@@ -123,7 +123,7 @@ break;}
 }
 
 //Dosplay message if student not found
-if(found==flase){
+if(found==false){
 cout<<"Student wit roll number"<<searchRoll<<"not found\n";}
 break;}
 
