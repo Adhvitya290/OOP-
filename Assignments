@@ -100,7 +100,7 @@ break;
 
 //Search for studnt using roll number
 case 3:
-if (currentCount==o){
+if (currentCount==0){
 cout<<"NO Student Records Avaible to search.\n";
 break;}
 
