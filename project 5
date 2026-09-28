@@ -1,7 +1,44 @@
-//A college admission portal allows 
-//students to update their profiles 
-//online. Design a student class that 
-//correctly assigns the submitted details 
-//to the respective data members, even 
-//when the input variable names are the 
-//same as the class attributes. 
+//A college admission portal allows students to update their profiles online. Design a student class that 
+//correctly assigns the submitted details to the respective data members, even when the input variable names 
+//are the same as the class attributes. 
+
+#include<iostream>
+#include<string>
+using namespace std;
+
+class Student{
+private:
+ int rollnumber;
+ string name;
+ string course;
+
+public:
+//Constructor
+Student(int rollnumber, string name, string course){
+  this -> rollnumber = rollnumber;
+  this -> name = name;
+  this -> course = course;}
+
+//Display Student details
+ void displayDetails(){
+  cout<<"Student Details"<<endl;
+  cout<<"Roll Number: "<<endl;
+  cout<<"Name: "<<endl;
+  cout<<"Course: "<<endl;}
+};
+
+int main(){
+ Student s1(101, "Anjali","Computer Science");
+ s1.displayDetails():
+ return 0;
+}
+
+
+
+
+
+
+
+
+
+
