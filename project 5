@@ -29,7 +29,7 @@ Student(int rollnumber, string name, string course){
 
 int main(){
  Student s1(101, "Anjali","Computer Science");
- s1.displayDetails():
+ s1.displayDetails();
  return 0;
 }
 
