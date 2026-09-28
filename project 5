@@ -1,1 +1,7 @@
-
+//A college admission portal allows 
+//students to update their profiles 
+//online. Design a student class that 
+//correctly assigns the submitted details 
+//to the respective data members, even 
+//when the input variable names are the 
+//same as the class attributes. 
